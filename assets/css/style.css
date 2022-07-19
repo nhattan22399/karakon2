@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=Titan+One&family=Zen+Kaku+Gothic+New:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+a{
+    color: #2995e1;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.left{
+    justify-content: unset;
+}
+
+.bot-border{
+    border-radius: 0 0 15px 15px;
+}
+
+.font_size{
+    font-size: 18px;
+}
+
+header{
+    padding: 0 18%;
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    
+}
+
+.header-left{
+    display: flex;
+}
+
+.header-left img{
+    position: absolute;
+    top: -10px;
+}
+
+.header-left .text-1{
+    -webkit-text-stroke: 1.5px white; /* width and color */
+    color:#ff5aa0 ;
+    font-size: 40px;
+    margin-left: 75px;
+    letter-spacing: -7px;
+    text-shadow: 0px 0px 3px black;
+}
+
+.header-left  .text2{
+    margin-left: 7px;
+    -webkit-text-stroke: 1.5px white; /* width and color */
+    color:#ff6b00 ;
+    font-size: 40px;
+    letter-spacing: -7px;
+    text-shadow: 0px 0px 3px black;
+}
+
+.header-right{
+   position: absolute;
+   right: 18%;
+   text-align: right;
+}
+
+
+/* content */
+.content{
+    padding: 0 18%;
+    position: relative;
+}
+
+.slider{
+    display: flex;
+    
+    background-image: url('/assets/image/nen.png');
+    /* background-repeat: repeat; */
+    background-size: cover ;
+    position: relative;
+    border: 1px solid #ccc;
+    
+}
+
+.slider  .slider-right{
+    
+    position: absolute;
+    left: 38%;
+    
+}
+
+.slider  .slider-right .row1{
+    display: flex;
+    margin-left: -70px;
+    margin-top: 10px;
+}
+
+.slider  .slider-right .row2{
+    margin-top: -5px;
+}
+
+.slider .slider-right .row1 img{
+    height: 35px;
+    width: 40px;
+}
+
+.slider  .slider-right h2{
+    font-size: 2em;
+    -webkit-text-stroke: 1.5px white; /* width and color */
+    color:black ;
+    letter-spacing: -7px;
+    text-shadow: 0px 0px 3px black;
+}
+
+.slider  .slider-right h1{
+    font-size: 3.5em;
+    -webkit-text-stroke: 1.5px white; /* width and color */
+    color:#ff5aa0 ;
+    margin-left: -70px;
+    letter-spacing: -7px;
+    text-shadow: 0px 0px 3px black;
+}
+
+.slider  .slider-right .row3{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.slider  .slider-right .row3 img{
+    border-radius: 10px;
+    background: white;
+    padding: 5px;
+    width: 190px;
+}
+
+
+.left-content{
+    margin-top: 15px;
+    width: 70%;
+}
+
+.left-content .text-center{
+    text-align: center;
+    font-style: bold;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.left-content .social{
+    background: #efefef;
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.left-content .chart-header{
+    text-align: center;
+    background: #fd5f84;
+    border-radius: 15px 15px 0 0;
+}
+
+.charts{
+    background: #fd5f84;
+    padding: 3px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.charts .chart-header .text-bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+    
+}
+.charts .chart-header h1{
+    font-size: 2em;
+    color: white;
+}
+.charts .chart-header .text-bot h1{
+    color: #fffd64;
+    font-size: 2em;
+}
+
+.charts .top-chart{
+    background: white;
+    display: flex;
+}
+
+.charts .top-chart .left-top-chart{
+    padding: 20px;
+    justify-content: center;
+}
+
+.charts .top-chart .right-top-chart{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-top-chart .name{
+    display: flex;
+    padding: 20px 0;
+}
+
+.right-top-chart p{
+    justify-content: center;
+    margin-right: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+a.name-top {
+    font-size: 2em;
+    margin-left: 10px;
+    color: #2995e1;
+}
+
+.right-top-chart .name .number{
+    width: 80px;
+    border-radius: 0 0 15px 15px;
+    height: 60px;
+    line-height: 60px;
+    justify-content: center;
+    background-image: linear-gradient(to top,#e5e5e6,#ffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #2222;
+    font-size: 1.5em;
+    -webkit-text-stroke: 1.5px white; /* width and color */
+    color:#ff5aa0 ;
+    text-shadow: 0px 0px 3px black;
+}
+.right-top-chart .name .number span{
+    font-size: 1.5em;
+    margin-top: -5px;
+}
+
+.read-more{
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+
+.read-more .read-header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 55px;
+    background: linear-gradient(to top, #ff5e00,#ff8c00);
+}
+
+.read-header img{
+    height: fit-content;
+
+}
+
+.read-more .read-header .name-header{
+    font-size: 1.8em;
+    margin-left: 10px;
+    color: white;
+}
+
+.read-more .read-body{
+    border: 3px solid #ccc;
+    padding: 25px;
+    
+}
+
+.read-more .read-body p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* right-content */
+.right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 350px;
+    right: 18%;
+}
+
+
+.menu-header{
+    padding-left: 10px;
+    height: 50px;
+    background: linear-gradient(to top,#ff5900,#ff8d00);
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.menu-header .menu-name{
+    font-size: 1.3em;
+    margin-left: 10px;
+}
+
+.menu-body{
+    border: 2px solid #ff6400;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-body-left{
+    border: 2px solid #ff6400;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* footer */
+footer{
+    height: 90px;
+    background: #ff6300;
+   
+}
+
+footer .text-footer{
+    color: white;
+    line-height: 90px;
+    text-align: center;
+}
+
+
+
+/* reposive */
+
+/* mobile iphone 6 7 8 */
+@media only screen
+ 
+and (min-device-width: 320px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: portrait) {
+    header{
+        padding: 0 5%;
+        display: block;
+    }
+    .header-left{
+        display: block;
+    }
+    .header-left .text-1 {
+        font-size: 2em;
+       
+    }
+    .header-left .text2{
+        font-size: 2em;
+        margin-left: 75px;
+    }
+    .header-right{
+        position: unset;
+    }
+    .header-right a, .header-right .text-right{
+        font-size: 13px;
+    }
+    .slider .left-slider{
+        visibility: hidden;
+    }
+    .slider-right{
+        left: 10px !important;
+
+    }
+    .slider-right .row1{
+        margin-left: 0 !important;
+    }
+    .slider-right .row1 h2{
+        font-size: 1.5em;
+        margin-left: 0 !important;
+    }
+    .slider-right h1{
+        font-size: 1.9em !important;
+        margin-left: 0 !important;
+    }
+    .slider .slider-right .row1 img {
+        height: 25px;
+        width: 30px;
+    }
+    .content {
+        padding: 0 5%;
+    }
+    .slider .slider-right .row3 img {
+        width: 30%;
+    }
+    .slider .slider-right .row3 {
+        gap: 12px;
+    }
+    .slider{
+        height: 200px;
+    }
+    .left-content {
+        width: 100%;
+    }
+    .right-content{
+        width: 100%;
+        position: unset;
+    }
+    .charts .chart-header h1 {
+        font-size: 1em;
+    }
+    .charts .chart-header .text-bot h1 {
+        font-size: 1em;
+    }
+    .charts .top-chart {
+        display: block;
+    }
+    .charts .top-chart .left-top-chart {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .right-top-chart .name {
+        display: flex;
+        padding: 10px 0;
+        justify-content: center;
+    }
+    .right-top-chart p {
+        justify-content: center;
+        padding: 10px 20px;
+        margin-right: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    a.name-top {
+        font-size: 1.8em;
+    }
+    .read-more .read-header .name-header {
+        font-size: 1.5em;;
+    }
+    .menu-body-left {
+        align-items: center;
+    }
+    footer {
+        height: 70px;
+        margin-top: 15px;
+
+    }
+    footer .text-footer {
+        line-height: 70px;
+    }
+}
